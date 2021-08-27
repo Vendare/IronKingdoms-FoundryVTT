@@ -1,0 +1,49 @@
+.line {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.small {
+  width: 10%;
+}
+.medium {
+  width: 15%;
+}
+
+.box {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.expBox {
+  border: 2px solid black;
+  padding: 5px;
+  width: 200px;
+  height: 100%;
+}
+
+.avatar {
+  width: 250px;
+  height: 250px;
+}
+
+span {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  border: 2px black;
+  border-style: none none solid none;
+}
+
+input:focus{
+    outline: none;
+}
