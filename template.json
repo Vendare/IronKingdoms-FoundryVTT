@@ -1,0 +1,140 @@
+{
+    "Actor": {
+      "types": ["player", "npc", "warjack", "warbeast"],
+      "templates": {
+        "background": {
+          "biography": "",
+          "looks": "",
+          "faith" : "",
+          "weight" : "",
+          "height" : ""
+        },
+        "resources": {
+          "vitality": {
+            "min": 0,
+            "value": 0
+          },
+          "focus": {
+            "min": 0,
+            "value": 0
+          },
+          "fatigue": {
+            "value": 0
+          },
+          "lifespiral": {
+            "1" : 0,
+            "2" : 0,
+            "3" : 0,
+            "4" : 0,
+            "5" : 0,
+            "6" : 0
+          }
+        }
+      },
+      "player": {
+        "templates": ["background", "resources"],
+        "attributes" : {
+          "attributes" : {
+            "physique" : {
+              "label": "ATTRIBUTES.PHYSIQUE",
+              "short": "ATTRIBUTES.PHYSIQUE_SHORT",
+              "value": 4,
+              "max" : 6
+            },
+            "speed" : {
+              "label": "ATTRIBUTES.SPEED",
+              "short": "ATTRIBUTES.SPEED_SHORT",
+              "value": 4,
+              "max" : 5
+            },
+            "strength" : {
+              "label": "ATTRIBUTES.STRENGTH",
+              "short": "ATTRIBUTES.STRENGTH_SHORT",
+              "value": 3,
+              "max" : 4
+            },
+            "agility" : {
+              "label": "ATTRIBUTES.AGILITY",
+              "short": "ATTRIBUTES.AGILITY_SHORT",
+              "value": 3,
+              "max" : 5
+            },
+            "prowess" : {
+              "label": "ATTRIBUTES.PROWESS",
+              "short": "ATTRIBUTES.PROWESS_SHORT",
+              "value": 3,
+              "max" : 5
+            },
+            "poise" : {
+              "label": "ATTRIBUTES.POISE",
+              "short": "ATTRIBUTES.POISE_SHORT",
+              "value": 3,
+              "max" : 5
+            },
+            "intellect" : {
+              "label": "ATTRIBUTES.INTELLECT",
+              "short": "ATTRIBUTES.INTELLECT_SHORT",
+              "value": 3,
+              "max" : 4
+            },
+            "arcane" : {
+              "label": "ATTRIBUTES.ARCANE",
+              "short": "ATTRIBUTES.ARCANE_SHORT",
+              "value": 0,
+              "max" : 4
+            },
+            "perception" : {
+              "label": "ATTRIBUTES.PERCEPTION",
+              "short": "ATTRIBUTES.PERCEPTION_SHORT",
+              "value": 3,
+              "max" : 5
+            }
+          }
+        }
+      },
+      "NPC": {
+        "templates": ["resources"],
+        "mat" : 0,
+        "rat" : 0,
+        "def" : 0,
+        "arm" : 0,
+        "willpower" : 0,
+        "initiative" : 0,
+        "detect" : 0,
+        "sneak" : 0,
+        "encounterPoints" : 0
+      },
+      "warjack": {
+        "templates": ["resources"],
+        "bond" : null,
+        "bondtraits" : []
+      },
+      "warbeast": {
+        "templates": ["resources"]
+      }
+    },
+    "Item": {
+      "types": ["weapon", "spell"],
+      "templates": {
+        "gear": {
+          "description": "",
+          "price": 0
+        }
+      },
+      "weapon": {
+        "templates": ["rarity"],
+        "pow": 0,
+        "attackmod" : 0,
+        "skill" : ""
+      },
+      "spell": {
+        "description": "",
+        "cost": 1,
+        "rng" : "",
+        "aoe" : 0,
+        "pow" : 0,
+        "up" : false,
+        "off" : false
+      }
+    }
+    }

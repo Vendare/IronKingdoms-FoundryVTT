@@ -1,0 +1,35 @@
+{
+    "name": "IKRPG",
+    "title": "Iron Kingdoms RPG",
+    "description": "An Unofficial Foundry System for the Iron Kingdoms Fullmetal Fanstasy and Unleashed RPGs",
+    "version": "0.0.1",
+    "templateVersion": 1,
+    "author": "Vendare, ",
+    "scripts": [ ],
+    "esmodules": [ "system.js" ],
+    "styles": [
+      "styles/sheet/player.css"
+    ],
+    "packs": [ ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      },
+      {
+        "lang": "de",
+        "name": "German",
+        "path": "lang/de.json"
+      }
+    ],    
+    "socket": false,
+    "initiative": "2d6",
+    "gridDistance": 1,
+    "gridUnits": "inch",
+    "primaryTokenAttribute": "null",
+    "secondaryTokenAttribute": "null",
+    "url": "https://github.com/Vendare/IronKingdoms-FoundryVTT",
+    "manifest": "https://raw.githubusercontent.com/Vendare/IronKingdoms-FoundryVTT/master/system.json",
+    "download": "https://your/packaged/download/archive.zip"
+  }
